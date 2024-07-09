@@ -1,0 +1,6 @@
+create table currency_exchange_rate
+(
+    currency_code varchar(3) not null
+        primary key,
+    currency_rate double precision
+);
